@@ -46,10 +46,14 @@ This website was created as a class project to combine my interest in computers 
 ## 🚀 How to Run the Project
 
 1. Clone the repository:
+```bash
 git clone https://github.com/yourusername/film-vault.git
+```
 2. Navigate to the project folder:
-cd film-vault
-3. Open index.html in your browser
+```bash
+cd Movie-Website
+```
+4. Open index.html in your browser (Right click -> Open with your browser)
 
 👤 Author
 Sukhleen Dhadiala
