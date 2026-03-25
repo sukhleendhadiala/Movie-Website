@@ -1,0 +1,1111 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* fonts */
+/*.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+/*.dm-sans-<uniquifier> {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	background-color: black;
+	max-width: 1280px;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-size: 4em;
+	color: black;
+}
+
+hr {
+	border-top: solid 2px antiquewhite;
+	width: 95%;
+}
+
+.firstFilmLine {
+	border-top: dashed 1px antiquewhite;
+	width: 95%;
+}
+
+h5 {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color:  antiquewhite;
+}
+
+/*first grid styles*/
+.firstGrid {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: auto;
+	grid-gap: 0.5em;
+	margin: 0em;
+}
+
+/*header styles*/
+.banner {
+	background-image: url("../assets/movie background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 30em;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.bannerHeadlineText {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+	font-style: normal;
+	font-size: 10em;
+	text-shadow: 2px 2px 4px #494b3f;
+	color: antiquewhite;
+}
+
+.bannerHeadlineTextRecommendations {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+	font-style: normal;
+	font-size: 7.5em;
+	text-shadow: 2px 2px 4px #494b3f;
+	color: antiquewhite;
+}
+
+.myFavoritesHeader {
+  	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	display: flex;
+	justify-content: center;
+	color: antiquewhite;
+	margin: 1em;
+	font-size: 1.5em;
+}
+
+.welcomeHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	display: flex;
+	justify-content: center;
+	color: antiquewhite;
+	margin: 1em;
+}
+
+.exploreByGenreHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 1.5em;
+	color: antiquewhite;
+	margin: 1.5em 0.5em 0.5em 0.5em;
+}
+
+.andMoreHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 1.5em;
+	color: antiquewhite;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0.5em 0.5em 1.5em 0.5em;
+}
+
+/*navigation styles*/
+.navigation {
+	list-style-type: none;
+	padding: 0em 1em;
+	width: 100%;
+	height: 1em;
+	margin: 0em 1em 1em 1em;
+	position: absolute;
+	top: 0.5em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0em;
+	padding: 1em;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+li {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	float: right;
+	text-transform: uppercase;
+}
+
+li a {
+	display: block;
+	padding: 0.5em;
+	text-align: center;
+	color: antiquewhite;
+	text-decoration: none;
+	text-shadow: 2px 2px 4px #494b3f;
+}
+
+li a:hover {
+	color: antiquewhite;
+	background-color: black;
+	text-decoration: none;
+}
+
+.homePage {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	float: left;
+	text-transform: uppercase;
+}
+
+/*about me section styles*/
+.aboutMe {
+	background-color: #494d3e;
+	margin-left: 0em;
+	padding: 1em;
+	grid-column: 1/2;
+}
+
+.aboutMeText {
+	color: antiquewhite;
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+}
+
+/*carousel*/
+.slideshow {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	grid-column: 2/3;
+}
+
+/*footer styles*/
+.footer {
+	background-color: #1D1D1D;
+	width: 100%;
+	height: auto;
+}
+
+.footerText {
+	color: antiquewhite;
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	padding: 1.5em 0.5em 1.5em 0.5em;
+}
+
+/*grid styles*/
+.genreGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 0.5em;
+	margin: 0.5em;
+	padding: 0em;
+}
+
+/*movie image styles*/
+.containerOne {
+	background-image: url("../assets/genre background 1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+ 	width: 100%;
+	max-width: 300px;
+  	aspect-ratio: 3 / 4;
+	border: solid 2px antiquewhite;
+	opacity: 0.7;
+}
+
+.containerTwo {
+	background-image: url("../assets/genre background 2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+ 	width: 100%;
+	max-width: 300px;
+  	aspect-ratio: 3 / 4;
+	border: solid 2px antiquewhite;
+	opacity: 0.7;
+}
+
+.containerThree {
+	background-image: url("../assets/genre background 3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+ 	width: 100%;
+	max-width: 300px;
+  	aspect-ratio: 3 / 4;
+	border: solid 2px antiquewhite;
+	opacity: 0.7;
+}
+
+.containerFour {
+	background-image: url("../assets/genre background 4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+ 	width: 100%;
+	max-width: 300px;
+  	aspect-ratio: 3 / 4;
+	border: solid 2px antiquewhite;
+	opacity: 0.7;
+}
+
+.movieLink {
+	position: absolute;
+	bottom: 2%;
+	right: 3%;
+	color: antiquewhite;
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 2em;
+	/*font-size: clamp(1em, 2.5vw, 4em);*/
+	text-shadow: 2px 2px 4px #494b3f;
+}
+.movieLink:hover {
+	color: antiquewhite;
+	cursor: pointer;
+}
+
+/*RECOMMENDATION PAGE STYLES*/
+.fade-in-section {
+	opacity: 0;
+  	transform: translateY(20px);
+  	transition: opacity 1s ease-out, transform 1s ease-out;
+  	will-change: opacity, transform;
+}
+
+.fade-in-visible {
+  	opacity: 1;
+  	transform: translateY(0);
+}
+
+/*thriller section styles*/
+.thrillerGridOne {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em;
+	margin-top: 2em;
+	padding: 1em;
+	justify-items: center;
+}
+
+.thrillerHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	grid-column: 1/2;
+	font-size: 4em;
+	margin-top: 0.1em;
+}
+
+.thrillerContainerTwo {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.imageContainerOne img {
+	width: 100%;
+  	display: block;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.thrillerMovieOneHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.thrillerMovieOneInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+.thrillerContainerThree {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.imageContainerTwo img {
+	width: 100%;
+  	display: block;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.thrillerMovieTwoHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.thrillerMovieTwoInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+.thrillerContainerFour {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.imageContainerThree img {
+	width: 100%;
+  	display: block;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.thrillerMovieThreeHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.thrillerMovieThreeInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+/*romance section styles*/
+.romanceGridOne {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em;
+	margin-top: 2em;
+	padding: 1em;
+	justify-items: center;
+}
+
+.romanceHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	grid-column: 2/3;
+	font-size: 4em;
+	margin-top: 0.1em;
+}
+
+.romanceContainerOne {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.romanceMovieOneHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.romanceMovieOneInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+.romanceContainerThree {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.romanceMovieTwoHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.romanceMovieTwoInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+.romanceContainerFour {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.romanceMovieThreeHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.romanceMovieThreeInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+/*comedy movie section*/
+.comedyGridOne {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em;
+	margin-top: 2em;
+	padding: 1em;
+	justify-items: center;
+}
+
+.comedyHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	grid-column: 2/3;
+	font-size: 4em;
+	margin-top: 0.1em;
+}
+
+.comedyContainerOne {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.comedyMovieOneHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.comedyMovieOneInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+.comedyContainerTwo {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.comedyMovieTwoHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.comedyMovieTwoInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+.comedyContainerThree {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.comedyMovieThreeHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.comedyMovieThreeInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+/*action movie section*/
+.actionGridOne {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em;
+	margin-top: 2em;
+	padding: 1em;
+	justify-items: center;
+}
+
+.actionHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	grid-column: 2/3;
+	font-size: 4em;
+	margin-top: 0.1em;
+}
+
+.actionContainerOne {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.actionMovieOneHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.actionMovieOneInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+.actionContainerTwo {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.actionMovieTwoHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.actionMovieTwoInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+.actionContainerFour {
+	background-color: #494d3e;
+	margin: 1em;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.actionMovieThreeHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+}
+
+.actionMovieThreeInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+/*HISTORY PAGE STYLES*/
+.movieDefinition {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 2.5em;
+	color: antiquewhite;
+	margin: 1em;
+}
+
+.firstFilmSubHeaderOne {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 1.5em;
+	color: antiquewhite;
+	margin: 1em 1em 1em 1.7em;
+}
+
+.firstFilmHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 2.5em;
+	color: antiquewhite;
+	margin: 0.5em 1em;
+}
+
+.firstFilmSubHeader {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 1.5em;
+	color: antiquewhite;
+	margin: 1em 1.5em 1em 1.5em;
+}
+
+.stopMotionGrid {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 0.5em;
+	margin: 0.5em;
+}
+
+.stopMotionPic {
+	padding: 1em;
+}
+
+.stopMotionInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	font-size: 0.9em;
+	margin: 1em;
+	padding: 1em;
+}
+
+.motionPictureGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0.5em;
+}
+
+.motionPictureInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	font-size: 0.9em;
+	margin: 1em;
+	padding: 1em;
+}
+
+.motionPictureOne {
+	margin: 1em;
+	padding: 0.5em;
+}
+
+.motionPictureTwo {
+	margin: 1em;
+	padding: 0.5em;
+}
+
+.talkieFilmGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0.5em;
+}
+
+.talkieFilmPicture {
+	margin: 1em;
+	padding: 1em;
+}
+
+.talkieFilmInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	font-size: 0.9em;
+	margin: 1em;
+	padding: 1em;
+}
+
+.colorHeading {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: antiquewhite;
+	font-size: 3em;
+	margin: 0.5em 0.5em 0.5em 0.7em;
+}
+
+.colorSection {
+	background-image: url("../assets/colorsFixed.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 2em;
+	box-sizing: border-box;
+}
+
+.colorSectionInfo {
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+	color: antiquewhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 7em;
+	text-align: center;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 4px #494b3f;
+}
+
+@media screen and (max-width: 950px) {
+	.aboutMeText {
+		font-size: 0.7em;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.thrillerHeader {
+		font-size: 3.5em;
+	}
+	
+	.thrillerContainerTwo {
+		min-width: 140px;
+	}
+	
+	.thrillerContainerThree {
+		min-width: 140px;
+	}
+	
+	.thrillerContainerFour {
+		min-width: 140px;
+	}
+	
+	.romanceHeader {
+		font-size: 3.5em;
+	}
+	
+	.romanceContainerOne {
+		min-width: 140px;
+	}
+	
+	.romanceContainerThree {
+		min-width: 140px;
+	}
+	
+	.romanceContainerFour {
+		min-width: 140px;
+	}
+	
+	.comedyHeader {
+		font-size: 3.5em;
+	}
+	
+	.comedyContainerOne {
+		min-width: 140px;
+	}
+	
+	.comedyContainerTwo {
+		min-width: 140px;
+	}
+	
+	.comedyContainerThree {
+		min-width: 140px;
+	}
+	
+	.actionHeader {
+		font-size: 3.5em;
+	}
+	
+	.actionContainerOne {
+		min-width: 140px;
+	}
+	
+	.actionContainerTwo {
+		min-width: 140px;
+	}
+	
+	.actionContainerFour {
+		min-width: 140px;
+	}
+	
+	.colorSectionInfo {
+		font-size: 1.2em;
+	}
+}
+
+/*iPad size*/
+@media screen and (max-width: 768px) {
+	.aboutMeText {
+		font-size: 1em;
+	}
+	
+	.genreGrid {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 0.5em;
+	}
+	
+	.bannerHeadlineText {
+		font-size: 7em;
+	}
+	
+	li {
+		font-size: 0.7em;
+	}
+	
+	.firstGrid {
+		grid-template-columns: 1fr;
+	}
+	
+	.bannerHeadlineTextRecommendations {
+		font-size: 5em;
+	}
+	
+	.thrillerGridOne, .romanceGridOne, .comedyGridOne, .actionGridOne {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 0.5em;
+		justify-items: center;
+	}
+	
+	.thrillerContainerOne, .romanceContainerTwo, .comedyContainerFour , .actionContainerThree {
+		grid-row: 1;
+		grid-column: 1 / -1;
+  		text-align: center;
+	}
+	
+	.thrillerContainerTwo, .thrillerContainerThree, .thrillerContainerFour {
+		text-align: center;
+  		margin-left: 1em;
+		margin-right: 1em;
+	}
+	
+	.romanceContainerOne, .romanceContainerThree, .romanceContainerFour {
+  		text-align: center;
+  		margin-left: 1em;
+		margin-right: 1em;
+	}
+	
+	.comedyContainerOne, .comedyContainerTwo, .comedyContainerThree {
+		text-align: center;
+  		margin-left: 1em;
+		margin-right: 1em;
+	}
+	
+	.actionContainerOne, .actionContainerTwo, .actionContainerFour {
+		text-align: center;
+  		margin-left: 1em;
+		margin-right: 1em;
+	}
+	
+	.thrillerMovieOneDescription, .thrillerMovieTwoDescription, .thrillerMovieThreeDescription {
+		font-size: 0.7em;
+	}
+	
+	.romanceMovieOneDescription, .romanceMovieTwoDescription, .romanceMovieThreeDescription {
+		font-size: 0.7em;
+	}
+	
+	.comedyMovieOneDescription, .comedyMovieTwoDescription, .comedyMovieThreeDescription {
+		font-size: 0.7em;
+	}
+	
+	.actionMovieOneDescription, .actionMovieTwoDescription, .actionMovieThreeDescription {
+		font-size: 0.7em;
+	}
+	
+	.colorSectionInfo {
+		font-size: 1em;
+	}
+	
+	.stopMotionGrid {
+		grid-template-columns: 1fr;
+	}
+	
+	.motionPictureGrid {
+		grid-template-columns: 1fr;
+	}
+	
+	.motionPictureOne {
+		margin: 0em;
+		padding: 0em 3em 0em 3em;
+	}
+	
+	.motionPictureTwo {
+		margin: 0em;
+	}
+	
+	.talkieFilmGrid {
+		grid-template-columns: 1fr;
+	}
+	
+	.talkieFilmPicture {
+		margin: 0em;
+	}
+}
+
+/*phone size*/
+
+@media screen and (max-width: 600px) {
+	.bannerHeadlineText {
+		font-size: 5em;
+	}
+	
+	.stopMotionGrid {
+		grid-template-columns: 1fr;
+	}
+	
+	.motionPictureGrid {
+		grid-template-columns: 1fr;
+	}
+	
+	.motionPictureOne {
+		margin: 0em;
+		padding: 0em 3em 0em 3em;
+	}
+	
+	.motionPictureTwo {
+		margin: 0em;
+	}
+	
+	.talkieFilmGrid {
+		grid-template-columns: 1fr;
+	}
+	
+	.talkieFilmPicture {
+		margin: 0em;
+	}
+	
+	.thrillerGridOne, .romanceGridOne, .comedyGridOne, .actionGridOne {
+		grid-template-columns: 1fr;
+		grid-gap: 0.5em;
+		justify-items: center;
+	}
+	
+	.bannerHeadlineTextRecommendations {
+		font-size: 4em;
+	}
+	
+	.thrillerMovieOneDescription, .thrillerMovieTwoDescription, .thrillerMovieThreeDescription {
+		font-size: 0.8em;
+	}
+	
+	.romanceMovieOneDescription, .romanceMovieTwoDescription, .romanceMovieThreeDescription {
+		font-size: 0.8em;
+	}
+	
+	.comedyMovieOneDescription, .comedyMovieTwoDescription, .comedyMovieThreeDescription {
+		font-size: 0.8em;
+	}
+	
+	.actionMovieOneDescription, .actionMovieTwoDescription, .actionMovieThreeDescription {
+		font-size: 0.8em;
+	}
+	
+}
