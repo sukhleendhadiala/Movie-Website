@@ -8,7 +8,7 @@ Built as a personal project at Michigan State University, this application combi
 
 ## ✨ Features
 
-🎥 Dynamic Movie Interface
+- 🎥 Dynamic Movie Interface
 Clean, modern homepage designed for intuitive navigation and user engagement
 🎞️ Interactive Image Carousel
 Highlights featured movies using JavaScript-powered UI components
