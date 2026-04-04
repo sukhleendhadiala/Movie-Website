@@ -10,13 +10,13 @@ Built as a personal project at Michigan State University, this application combi
 
 - 🎥 Dynamic Movie Interface
 Clean, modern homepage designed for intuitive navigation and user engagement
-🎞️ Interactive Image Carousel
+- 🎞️ Interactive Image Carousel
 Highlights featured movies using JavaScript-powered UI components
-🎯 Genre-Based Browsing
+- 🎯 Genre-Based Browsing
 Users can explore movies by categories such as Romance, Thriller, Comedy, and Action
-📱 Responsive Design
+- 📱 Responsive Design
 Fully responsive layout built with Bootstrap for accessibility across devices
-🧭 Multi-Page Navigation System
+- 🧭 Multi-Page Navigation System
 Structured navigation across sections including Recommendations, History, Reviews (in progress), and News (in progress)
 
 ---
@@ -30,9 +30,9 @@ Some sections (such as Reviews and News) are not fully implemented yet and are p
 
 ## 🛠️ Tech Stack
 
-Frontend: HTML5, CSS3, JavaScript
-Frameworks/Libraries: Bootstrap 4, jQuery
-Design: Google Fonts, custom CSS styling 
+- Frontend: HTML5, CSS3, JavaScript
+- Frameworks/Libraries: Bootstrap 4, jQuery
+- Design: Google Fonts, custom CSS styling 
 
 ---
 
@@ -41,18 +41,18 @@ Design: Google Fonts, custom CSS styling
 This project was developed to strengthen my skills in web development, UI design, and client-side interactivity.
 
 It demonstrates my ability to:
-Build structured, multi-page web applications
-Implement responsive design principles
-Create interactive features using JavaScript
-Design user-friendly interfaces with clean navigation
+- Build structured, multi-page web applications
+- Implement responsive design principles
+- Create interactive features using JavaScript
+- Design user-friendly interfaces with clean navigation
 
 ---
 
 🔧 Future Improvements
-Add movie reviews system with dynamic content
-Integrate a movie API (e.g., TMDB) for real-time data
-Implement search and filtering functionality
-Build a recommendation system based on user preferences
+- Add movie reviews system with dynamic content
+- Integrate a movie API (e.g., TMDB) for real-time data
+- Implement search and filtering functionality
+- Build a recommendation system based on user preferences
 
 ---
 
