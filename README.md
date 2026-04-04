@@ -1,21 +1,23 @@
 # 🎬 The Film Vault
 
-The Film Vault is a personal movie website designed during my second year at Michigan State University to showcase movie-related content, including reviews, recommendations, news, and film history. This project combines web development with creativity to create an engaging movie-focused experience.
+The Film Vault is a responsive movie-focused web application designed to explore films through curated recommendations, genre-based browsing, and interactive UI components.
+
+Built as a personal project at Michigan State University, this application combines front-end development and user experience design to create an engaging platform for movie discovery.
 
 ---
 
 ## ✨ Features
 
-- 🎥 Movie-themed homepage with a clean, modern design  
-- 📚 Navigation to multiple sections:
-  - Reviews *(in progress)*
-  - Recommendations  
-  - News *(in progress)*  
-  - History  
-- 🎞️ Interactive image carousel featuring favorite movie scenes  
-- 🎨 Custom styling with Google Fonts and CSS  
-- 📱 Responsive layout using Bootstrap  
-- 🎯 Genre-based browsing (Romance, Thriller, Comedy, Action)
+🎥 Dynamic Movie Interface
+Clean, modern homepage designed for intuitive navigation and user engagement
+🎞️ Interactive Image Carousel
+Highlights featured movies using JavaScript-powered UI components
+🎯 Genre-Based Browsing
+Users can explore movies by categories such as Romance, Thriller, Comedy, and Action
+📱 Responsive Design
+Fully responsive layout built with Bootstrap for accessibility across devices
+🧭 Multi-Page Navigation System
+Structured navigation across sections including Recommendations, History, Reviews (in progress), and News (in progress)
 
 ---
 
@@ -26,20 +28,31 @@ Some sections (such as Reviews and News) are not fully implemented yet and are p
 
 ---
 
-## 🧠 About the Project
+## 🛠️ Tech Stack
 
-This website was created as a class project to combine my interest in computers and creativity through web design. As a student at Michigan State University, I wanted to build something that reflects both my technical skills and my passion for movies.
+Frontend: HTML5, CSS3, JavaScript
+Frameworks/Libraries: Bootstrap 4, jQuery
+Design: Google Fonts, custom CSS styling 
 
 ---
 
-## 🛠️ Tech Stack
+🧠 Project Overview
 
-- HTML5  
-- CSS3  
-- Bootstrap 4  
-- JavaScript  
-- jQuery  
-- Google Fonts  
+This project was developed to strengthen my skills in web development, UI design, and client-side interactivity.
+
+It demonstrates my ability to:
+Build structured, multi-page web applications
+Implement responsive design principles
+Create interactive features using JavaScript
+Design user-friendly interfaces with clean navigation
+
+---
+
+🔧 Future Improvements
+Add movie reviews system with dynamic content
+Integrate a movie API (e.g., TMDB) for real-time data
+Implement search and filtering functionality
+Build a recommendation system based on user preferences
 
 ---
 
